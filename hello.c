@@ -1,5 +1,12 @@
  #include <stdio.h>
- int main(){
-    printf("hello world\n");
+
+void greet(const char *name) {
+    printf("Hello, %s! Welcome to your GitHub portfolio.\n", name);
+}
+int main(){
+
+    printf("Hello world!\n");
+    greet("Ada");
+    
     return 0;
-}--
+}
